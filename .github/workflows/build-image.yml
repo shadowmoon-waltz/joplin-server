@@ -27,7 +27,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v3
         with:
-          images: etechonomy/joplin-server
+          images: shadowmoonwaltz/joplin-server
           tags: |
             type=semver,pattern={{version}}
             type=semver,pattern={{major}}.{{minor}}
@@ -72,5 +72,5 @@ jobs:
         uses: peter-evans/dockerhub-description@v2
         with:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
-          password: ${{ secrets.DOCKERHUB_PASSWORD }}
-          repository: etechonomy/joplin-server
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
+          repository: shadowmoonwaltz/joplin-server
