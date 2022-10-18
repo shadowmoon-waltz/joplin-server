@@ -1,5 +1,9 @@
 # Joplin Server
 
+This is a fork of etechnomy's joplin-server for personal use. README that follows is from the upstream project: https://github.com/etechonomy/joplin-server
+
+---
+
 [![Docker Build Status](https://img.shields.io/github/workflow/status/etechonomy/joplin-server/Build%20Container%20Images?logo=docker)](https://hub.docker.com/r/etechonomy/joplin-server) ![Docker Pulls](https://img.shields.io/docker/pulls/etechonomy/joplin-server?logo=docker)
 
 ---
